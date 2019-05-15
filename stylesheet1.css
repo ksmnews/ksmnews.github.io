@@ -1,0 +1,48 @@
+#mainbg {
+    background-color: #e5e5e5;
+    position: static;
+    height: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 3px 3px 2px 2px #838383;
+}
+#links {
+    text-align: center;
+    padding: 10px;
+    background-color: #d3d3d3;
+    margin: 10px;
+}
+.link {
+    margin: 5px;
+    padding: 5px;
+    background-color: #c3c3c3;
+    box-shadow: 2px 2px 1px 1px #a3a3a3;
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    padding: 10px;
+    margin: 5px;
+}
+body {
+    align-items: center;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    background-color: #e4e4e4;
+    color: #a8a8a8;
+    box-shadow: 3px 3px 2px 2px #838383;
+}
+.credit {
+    font-size: 10px;
+}
+.Seitentitel {
+    text-decoration: underline;
+}
+.Erwähnung {
+    font-size: 13px
+}
