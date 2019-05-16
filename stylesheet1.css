@@ -55,12 +55,13 @@ footer {
     padding: 5px;
     margin: 10px;
     margin-top; 15px;
-    transition: width 0.5s;
+    transition: width 0.5s, background-color 0.5s;
     box-shadow: 3px 3px 2px 2px #838383;
 }
 .Artikel:hover {
     width: 120%;
     text-decoration: underline;
+    background-color: aqua;
 }
 a {
     text-decoration: none;
