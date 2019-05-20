@@ -1,28 +1,30 @@
 #mainbg {
-    background-color: #e5e5e5;
     position: static;
-    margin-left: 20%;
-    margin-right: 20%;
-    box-shadow: 3px 3px 2px 2px #838383;
+    margin-right: 10%;
+    margin-left: 10%;
     padding-bottom: 5px;
 }
 body {
-    background-color: 
+    
 }
 #links {
     text-align: center;
+    background-color: black;
     padding: 15px;
-    background-color: #d3d3d3;
-    margin: 10px;
 }
 .link {
-    margin: 5px;
-    padding: 7px;
-    background-color: #c3c3c3;
-    box-shadow: 2px 2px 1px 1px #a3a3a3;
+    padding: 8px;
+    margin-left: 6px;
+    margin-right: 6px;
     text-decoration: none;
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 23px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.link:hover {
+    background-color: #ffff00;
+    color: black;
 }
 h1 {
     padding: 10px;
@@ -37,9 +39,7 @@ footer {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 10px;
-    background-color: #e4e4e4;
     color: #a8a8a8;
-    box-shadow: 3px 3px 2px 2px #838383;
 }
 .credit {
     font-size: 10px;
@@ -55,17 +55,16 @@ footer {
 }
 .Artikel {
     width: 96%;
-    background-color: #c3c3c3;
+    background-color: black; 
     padding: 5px;
     margin: 10px;
     margin-top; 15px;
     transition: width 0.5s, background-color 0.5s;
-    box-shadow: 3px 3px 2px 2px #838383;
 }
 .Artikel:hover {
-    width: 120%;
+    width: 105%;
     text-decoration: underline;
-    background-color: aqua;
+    background-color: #ffff00;
 }
 a {
     text-decoration: none;
@@ -74,6 +73,7 @@ a {
 article {
     padding: 3px;
     margin: 5px;
+    margin-top: 25px;
     border: 2px solid black;
 }
 .ArtTitle {
@@ -91,4 +91,12 @@ article {
 }
 #one {
     text-decoration: underline;
+    margin-top: 30px;
+}
+.art {
+    color: white;
+    transition: color 0.5s;
+}
+.art:hover {
+    color: black;
 }
