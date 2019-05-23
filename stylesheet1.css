@@ -100,3 +100,6 @@ article {
 .art:hover {
     color: black;
 }
+#dylanimg {
+    float: right;
+}
