@@ -103,3 +103,11 @@ article {
 #dylanimg {
     float: right;
 }
+q {
+    color: darkgrey;
+    font-size: 20px;
+}
+#nikimg {
+    float: left;
+    margin: 5px;
+}
